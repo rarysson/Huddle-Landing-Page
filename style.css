@@ -211,3 +211,95 @@ footer a {
 	font-size: 12px;
 }
 /* Footer configuration */
+
+
+
+@media (max-width: 1000px) {
+	.logo {
+		width: 50%;
+		height: auto;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	.info-header h1 {
+		font-size: calc(22px + 0.5vw);
+	}
+
+	.card:last-child h2 {
+		font-size: calc(16px + 0.5vw);
+	}
+
+	.logo-footer {
+		width: 40%;
+		height: auto;
+	}
+}
+
+@media (max-width: 700px) {
+	.about-header {
+		margin-top: 15%;
+		flex-direction: column;
+	}
+
+	.info-header {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.card,
+	.card:nth-child(2) {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 10%;
+	}
+
+	.card-info {
+		padding: 0 10% 5%;
+	}
+
+	.decoration-card {
+		justify-content: center;
+	}
+
+	.decoration-card img {
+		padding: 5% 0;
+		width: 70%;
+	}
+
+	.card:last-child  {
+		width: 95%;
+		padding-bottom: 5%;
+		top: 20vw;
+	}
+
+	footer {
+		padding-top: 20%;
+	}
+
+	footer li {
+		margin-bottom: 15px;
+	}
+
+	.info-footer {
+		flex-direction: column;
+	}
+
+	.contacts {
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.social {
+		justify-content: center;
+	}
+
+	.copyright {
+		text-align: center;
+		margin: 5% 0 10%;
+	}
+}
